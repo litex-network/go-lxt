@@ -367,6 +367,7 @@ func testSendTransactions(t *testing.T, protocol int) {
 	wg.Wait()
 }
 
+
 func TestTransactionPropagation(t *testing.T)  { testSyncTransaction(t, true) }
 func TestTransactionAnnouncement(t *testing.T) { testSyncTransaction(t, false) }
 
