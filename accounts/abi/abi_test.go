@@ -160,6 +160,7 @@ func TestInvalidABI(t *testing.T) {
 	}
 }
 
+
 // TestConstructor tests a constructor function.
 // The test is based on the following contract:
 // 	contract TestConstructor {
