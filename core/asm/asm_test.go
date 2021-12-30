@@ -22,6 +22,7 @@ import (
 	"encoding/hex"
 )
 
+
 // Tests disassembling the instructions for valid evm code
 func TestInstructionIteratorValid(t *testing.T) {
 	cnt := 0
