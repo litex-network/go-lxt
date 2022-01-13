@@ -138,6 +138,7 @@ func TestSharedKeyPadding(t *testing.T) {
 	}
 }
 
+
 // Verify that the key generation code fails when too much key data is
 // requested.
 func TestTooBigSharedKey(t *testing.T) {
