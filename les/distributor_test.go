@@ -57,6 +57,7 @@ func (p *testDistPeer) send(r *testDistReq) {
 	p.sumCost += r.cost
 }
 
+
 func (p *testDistPeer) worker(t *testing.T, checkOrder bool, stop chan struct{}) {
 	var last uint64
 	for {
