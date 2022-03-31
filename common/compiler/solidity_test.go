@@ -39,6 +39,7 @@ func skipWithoutSolc(t *testing.T) {
 	}
 }
 
+
 func TestSolidityCompiler(t *testing.T) {
 	skipWithoutSolc(t)
 
