@@ -76,6 +76,7 @@ func TestHeaderVerification(t *testing.T) {
 	}
 }
 
+
 // Tests that concurrent header verification works, for both good and bad blocks.
 func TestHeaderConcurrentVerification2(t *testing.T)  { testHeaderConcurrentVerification(t, 2) }
 func TestHeaderConcurrentVerification8(t *testing.T)  { testHeaderConcurrentVerification(t, 8) }
