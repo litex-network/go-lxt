@@ -52,6 +52,7 @@ var (
 	_ = ethereum.PendingContractCaller(&Client{})
 )
 
+
 func TestToFilterArg(t *testing.T) {
 	blockHashErr := fmt.Errorf("cannot specify both BlockHash and FromBlock/ToBlock")
 	addresses := []common.Address{
