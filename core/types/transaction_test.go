@@ -51,6 +51,7 @@ var (
 	)
 )
 
+
 func TestTransactionSigHash(t *testing.T) {
 	var homestead HomesteadSigner
 	if homestead.Hash(emptyTx) != common.HexToHash("c775b99e7ad12f50d819fcd602390467e28141316969f4b57f0626f74fe3b386") {
