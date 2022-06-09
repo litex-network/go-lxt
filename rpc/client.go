@@ -59,6 +59,7 @@ const (
 	maxClientSubscriptionBuffer = 20000
 )
 
+
 // BatchElem is an element in a batch request.
 type BatchElem struct {
 	Method string
