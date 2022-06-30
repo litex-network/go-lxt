@@ -29,6 +29,7 @@ import (
 	"github.com/ethereum/go-ethereum/core/types"
 )
 
+
 // CheckpointOracle is a Go wrapper around an on-chain checkpoint oracle contract.
 type CheckpointOracle struct {
 	address  common.Address
