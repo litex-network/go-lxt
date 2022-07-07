@@ -58,6 +58,7 @@ func getJeth(vm *goja.Runtime) *goja.Object {
 	return jeth.ToObject(vm)
 }
 
+
 // NewAccount is a wrapper around the personal.newAccount RPC method that uses a
 // non-echoing password prompt to acquire the passphrase and executes the original
 // RPC method (saved in jeth.newAccount) with it to actually execute the RPC call.
