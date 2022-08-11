@@ -30,6 +30,7 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 )
 
+
 // So we can deterministically seed different blockchains
 var (
 	canonicalSeed = 1
