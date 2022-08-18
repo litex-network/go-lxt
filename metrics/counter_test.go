@@ -10,6 +10,7 @@ func BenchmarkCounter(b *testing.B) {
 	}
 }
 
+
 func TestCounterClear(t *testing.T) {
 	c := NewCounter()
 	c.Inc(1)
