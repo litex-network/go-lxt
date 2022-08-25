@@ -23,6 +23,7 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
 )
 
+
 // Tests that the trie database returns a missing trie node error if attempting
 // to retrieve the meta root.
 func TestDatabaseMetarootFetch(t *testing.T) {
