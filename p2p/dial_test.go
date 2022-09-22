@@ -34,6 +34,7 @@ import (
 	"github.com/ethereum/go-ethereum/p2p/netutil"
 )
 
+
 // This test checks that dynamic dials are launched from discovery results.
 func TestDialSchedDynDial(t *testing.T) {
 	t.Parallel()
