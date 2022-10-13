@@ -26,6 +26,7 @@ var (
 	ErrNotFound = errors.New("not found")
 )
 
+
 type Storage interface {
 	// Put stores a value by key. 0-length keys results in noop.
 	Put(key, value string)
