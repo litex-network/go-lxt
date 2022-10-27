@@ -25,7 +25,6 @@ import (
 	"math/big"
 	"sync"
 	"testing"
-
 	"github.com/ethereum/go-ethereum/common/math"
 )
 
